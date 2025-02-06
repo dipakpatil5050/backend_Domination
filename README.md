@@ -223,7 +223,6 @@ fs.readFile("data.txt", "utf8", function (err, data) {
 
 ```js
 const fs = require("fs");
-
 fs.rename("ram.txt", "me.txt", function (err) {
   if (err) console.log(err);
   else console.log("rename success");

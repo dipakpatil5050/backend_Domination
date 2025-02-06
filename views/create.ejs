@@ -13,7 +13,7 @@
         Create New Hisaab
       </h2>
 
-      <form action="/notes/create" method="POST" class="space-y-3">
+      <form action="/createhisaab" method="POST" class="space-y-3">
         <input
           type="text"
           name="title"
@@ -28,12 +28,14 @@
           class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
         ></textarea>
 
-        <button
-          type="submit"
-          class="w-full bg-blue-500 text-white font-semibold p-2 rounded-lg hover:bg-blue-600 transition"
-        >
-          Create Hisaab
-        </button>
+        <a href="/create">
+          <button
+            type="submit"
+            class="w-full bg-blue-500 text-white font-semibold p-2 rounded-lg hover:bg-blue-600 transition"
+          >
+            Create Hisaab
+          </button>
+        </a>
       </form>
     </div>
   </body>
